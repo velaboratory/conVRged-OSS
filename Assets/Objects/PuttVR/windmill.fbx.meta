@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: 1cb68c2884ca5c54d897caef58fd81fe
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Cylinder
+    100004: Empty
+    100006: slats
+    100008: spinnything
+    100010: UGA G
+    100012: //RootNode
+    100014: windmill_base
+    400000: Cube
+    400002: Cylinder
+    400004: Empty
+    400006: slats
+    400008: spinnything
+    400010: UGA G
+    400012: //RootNode
+    400014: windmill_base
+    2100000: uga_g_red
+    2100002: uga_g
+    2100004: windmill_trim
+    2100006: windmill_walls
+    2100008: windmill_roof
+    2100010: windmill_slats
+    2100012: windmill_cloth
+    2300000: Cube
+    2300002: Cylinder
+    2300004: slats
+    2300006: spinnything
+    2300008: UGA G
+    2300010: windmill_base
+    3300000: Cube
+    3300002: Cylinder
+    3300004: slats
+    3300006: spinnything
+    3300008: UGA G
+    3300010: windmill_base
+    4300000: UGA G
+    4300002: Cube
+    4300004: windmill_base
+    4300006: spinnything
+    4300008: Cylinder
+    4300010: slats
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windmill_roof
+    second: {fileID: 2100000, guid: cf51a067fb748f340ac053a3c2d06320, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windmill_slats
+    second: {fileID: 2100000, guid: cf51a067fb748f340ac053a3c2d06320, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windmill_trim
+    second: {fileID: 2100000, guid: 2971a15c8c8b7554bbfb9f6d2a948318, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windmill_walls
+    second: {fileID: 2100000, guid: 7ebeb8cc84f8d534ba28f5b12b6b19f5, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

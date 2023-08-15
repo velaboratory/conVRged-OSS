@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 98cb8f099cadbb441a26b61d9d35fa98
+  m_SerializeEntries:
+  - m_GUID: 1e7865fc553ed5643ae96016b8678786
+    m_Address: Chess
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6d748074b2c65024faec3dd989684606
+    m_Address: Auditorium
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f068e76a4cd07884c8eae269652ff5cd
+    m_Address: ConferenceRoom
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 05fe538a2413d14469aee5d0c8f4e5b5
+    m_Address: TutorialRoom
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2b0bbd778e8600e4ba50003fad212ed1
+    m_Address: VFR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9f42cb168b270f1469472e1a02429c2a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f69344597e5a1d8448daf935cc036dc1, type: 2}
+    - {fileID: 11400000, guid: f21542a235e73ef40aab36db1adfc628, type: 2}

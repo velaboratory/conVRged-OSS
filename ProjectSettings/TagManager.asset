@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - show_laser
+  - spawn_location
+  - fade_image
+  - SnapUI
+  - tablet_spawner
+  - tutorial_obj
+  - checkersPiece
+  - legoBlock
+  - ball
+  - net
+  - train_piece
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - GrabOnly
+  - Hands
+  - Ground
+  - Putter
+  - Ball
+  - MirrorOnly
+  - No2DViewer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - HandPlayer
+  - Grabbable
+  - Grabbing
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

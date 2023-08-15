@@ -1,0 +1,404 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Duplicate Asset Isolation
+  m_EditorClassIdentifier: 
+  m_GroupName: Duplicate Asset Isolation
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0800185a7c9ed9d4a876ddabf05611ce
+  m_SerializeEntries:
+  - m_GUID: 90faeed5f024e8f4283c6a14a50fef8f
+    m_Address: Assets/Materials/Marble Red.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ce35e4a7af202640b030b9c28ec2c8c
+    m_Address: Assets/Materials/Highlight.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1db83b9c9327c3745af4d7411a7fd41b
+    m_Address: Assets/ImportedAssets/Meshes/Bushes/Bush 01/Meshes/Bush 01.obj
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 691a0ba280e17af40a09cfce6a4ffd3b
+    m_Address: Assets/Materials/Textures/Icons and Logos/keyboard.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f54854a8a295b9a4484d4da370b7da5c
+    m_Address: Assets/Materials/Textures/Icons and Logos/refresh.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0d80c791b2fce945ab17d6d41ac0d53
+    m_Address: Assets/Materials/Textures/Icons and Logos/baseline_play_circle_filled_black_48dp.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d900beec57ec874ab0d737ea9ac53cc
+    m_Address: Assets/Scenes/LightingSettings/VFRSettings.lighting
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9357e301e01aadb4a8f0bf3f5301bb7e
+    m_Address: Assets/Materials/Textures/TexturesCom_Marble_SlabRed_1K_albedo.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b617625138782944bbd2363d4818cdc3
+    m_Address: Assets/Materials/Textures/wood/TexturesCom_Wood_Rough_1K_albedo.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00a1afd4ac423da498521b0aae4231c0
+    m_Address: Assets/Materials/Textures/wood/TexturesCom_Wood_Rough_1K_normal.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe393ace9b354375a9cb14cdbbc28be4
+    m_Address: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3265ab4bf004d28a9537516768c1c75
+    m_Address: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b964a0359ed56464a94472c82b966313
+    m_Address: Packages/com.aj.vrpen/Runtime/Materials/UI - Images/palette icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23aed4c626a3c1a4998eee68a3a9b7c8
+    m_Address: Packages/com.aj.vrpen/Runtime/Materials/UI - Images/newCanvas.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45d5d6b797332764f8f3fcc33448eb0a
+    m_Address: Packages/com.aj.vrpen/Runtime/Materials/UI - Images/eyedropper icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e02a59d89200b3941b08419ad63f2359
+    m_Address: Packages/com.aj.vrpen/Runtime/Materials/UI - Images/move.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffaccf4d351f7c84c875da55cbe45e70
+    m_Address: Packages/com.aj.vrpen/Runtime/Materials/UI - Images/erase icon 2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b9c29bda05aa9640b04d6a4c484b1f7
+    m_Address: Packages/com.aj.vrpen/Runtime/Materials/UI - Images/trash icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0799b00f5e9aca45bc2dbbad45e2394
+    m_Address: Assets/Materials/BrushedAluminum.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99d49f01feb096541b9a106026e0c211
+    m_Address: Assets/Materials/Office Ceiling.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fc1c872409305943bc13ce660f02498
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Pots/smallPot.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fb8b2c23a6414f40841659ee7dbdfa1
+    m_Address: Assets/Materials/Carpet.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a6ed7f25206a88419efbba824912dec
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Pots/SM_smallPot02.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8baa6ba31ba108c419eee8677aa63317
+    m_Address: Assets/Materials/Colors/White Unlit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fd2a0a480ae9be43a53917f75ed522f
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Plants/Textures/Peace
+      Lily/peaceLilyStem.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fcccce4dca6c3e4ab34f33ee222c479
+    m_Address: Assets/Materials/Colors/Red.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7ce47672ac13794fbab2dabe1061467
+    m_Address: Assets/Materials/Wooden Floor Shiny.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40eab5e85de6dce4e8b47ccb0da253b8
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Pots/pot1b.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87fa1e6930167f44a8845226b620ee1f
+    m_Address: Assets/Materials/BlackPlasticRough.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7210f24a606af224db07561ce2155fad
+    m_Address: Assets/Objects/VEL_Logo spaced.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cb7d45b72599504a90bb0164bdce63f
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Plants/Textures/Peace
+      Lily/peaceLily.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d4c22bbbd9055a47933cc11109dec66
+    m_Address: Assets/Materials/Colors/Black Unlit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a960eebb767e3804d899f75d1c389bfd
+    m_Address: Assets/ImportedAssets/UnrealImports/ModularCliffs/Materials/wood.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce71a8ff7fe45494b973e8fbb11b7f37
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Plants/Textures/Peace
+      Lily/peaceLilyFlower.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf29adb9eec649d4fa98f0bb869dc84f
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Pots/SM_pot01b.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cc3973c1e4f87f45bfada4043e6de8e
+    m_Address: Assets/Objects/Elevator.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 494f9b3d6a6af81429ba98d43103688f
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Plants/SM_peaceLily.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a177d7f771f6d941acb9369cb058e79
+    m_Address: Assets/Objects/Podium.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 240ffe11014bb5b48a91f85ebf5944f7
+    m_Address: Assets/Prefabs/MindMap/MindMapEdge.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4132196696c02194c9ebbffe0b1be3c2
+    m_Address: Assets/Prefabs/BookmarkButton.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02cd5f4943274cd44b09363daf6b0ba4
+    m_Address: Assets/Prefabs/MindMap/MindMapNode.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db4cb8aa2786a3746ae6ba1008c22832
+    m_Address: Assets/Prefabs/PlayerItem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a086475193834714e90887b08d0781d7
+    m_Address: Assets/Materials/Textures/Office Ceiling/TexturesCom_OfficeCeiling_1K_normal.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf3179a169622784086dac9f0709701d
+    m_Address: Assets/Materials/Textures/BrushedAluminum/TexturesCom_Metal_AluminumBrushed2_1K_albedo.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2e1e8538cf94704aaa6b6f569722f3c
+    m_Address: Assets/ImportedAssets/UnrealImports/ModularCliffs/Textures/T_wood_color.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c01652c3d7c457a44a8759c11a247684
+    m_Address: Assets/Materials/Textures/bumpy_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7ab3d14be97cf841bba9eba4ac424cd
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Plants/Textures/Peace
+      Lily/peaceLilybase_lpBase_Normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4f53345638918a45bc030c79a9b946a
+    m_Address: Assets/ImportedAssets/UnrealImports/ModularCliffs/Textures/T_wood_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f7f1597585fef1439e5b527789b7137
+    m_Address: Assets/Materials/Textures/bumpy_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb98e3c77be0d9549958e6f7e988ce23
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Pots/Textures/Pot1_Pot1v2_BaseColor.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 117e9ec7615058146b0c118d0793590a
+    m_Address: Assets/Materials/Textures/Office Ceiling/albedo_with_roughness.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afa96ad74d64e8446bfbda1fcfc51685
+    m_Address: Assets/Materials/Textures/BrushedAluminum/TexturesCom_Metal_AluminumBrushed2_1K_normal.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1390038697211d4082172df2123a545
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Plants/Textures/Peace
+      Lily/peaceLilyfLOWER_lpBase_Normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53760e09ec7a2ac4d86b10c917efb698
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Pots/Textures/succulentpot02_LP_Normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 739a7b59200fdef44824d756531787b9
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Plants/Textures/Peace
+      Lily/peaceLily_LP_BaseColor.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a75f700a3d9178b4396939f5528eeeba
+    m_Address: Assets/Materials/Textures/carpet/gloss.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26735c2aeb882294cbb458f8dcea9641
+    m_Address: Assets/Materials/Textures/carpet/diffuse_white.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2492879ad96f6d746b99e3cc12cf233d
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Plants/Textures/Peace
+      Lily/peaceLilyfLOWER_lpBase_BaseColor.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bedebaab9b6ffb4eb8cc4129f5dd0c5
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Plants/Textures/Peace
+      Lily/peaceLily_LP_Normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3cf955bcce581d4b8b4bd35db1c8e45
+    m_Address: Assets/Materials/shaders/StandardDoubleSided.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7415dbeb55cfb0d4997cba306cc79ac2
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Pots/Textures/Pot1_Pot1v2_Normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1010188e87ea358478291d4e04cddce2
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Pots/Textures/succulentpot02_LP_BaseColor.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 728c092f5a0fead4d921cb119023c860
+    m_Address: Assets/ImportedAssets/UnrealImports/HouseplantPack/Plants/Textures/Peace
+      Lily/peaceLilybase_lpBase_BaseColor.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 870e396a8d4d76f448557bd7e04b6c16
+    m_Address: Assets/Objects/Cone.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5ce014a740b1684689ded399f9f02ab
+    m_Address: Assets/Materials/Textures/Icons and Logos/link-variant.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec1a41ace5879bd4ca491a574971240c
+    m_Address: Assets/Materials/Textures/Icons and Logos/lock.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3e6c061baad6c64ea100473db5ac7e5
+    m_Address: Assets/Materials/Textures/Icons and Logos/palette.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fd534c1f182d3c4fb62bfe283b8578d
+    m_Address: Assets/Materials/Skybox Night City.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57afae296e7e1f147bf8ca8a12f95a96
+    m_Address: Assets/Materials/Glass Window.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f466ee534d95610419de5aac779d781f
+    m_Address: Assets/Objects/conference_room.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ae17e0771fbf5744947a566f257bc54
+    m_Address: Assets/Materials/Textures/skies/ScratchesMixed007_NRM_1K.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e4de3a097b6fa2469accf842a8f119d
+    m_Address: Assets/Materials/Colors/White.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dce11e51d1494194aa8225f9ab9554fc
+    m_Address: Assets/Materials/Colors/Black.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c38b8d4476dad07408414c11ce72194f
+    m_Address: Assets/Materials/Colors/Dark Gray.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9f42cb168b270f1469472e1a02429c2a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b7718a59da03eb84b865e70c5eb90dcc, type: 2}
+    - {fileID: 11400000, guid: a4af3e794b9033242ae5a6463a24b6e1, type: 2}

@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 71921c29e8af0394aa63bd1207a6cc2e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: tennis_collision
+    100004: tennis_frame
+    100006: tennis_frame_mold
+    100008: tennis_handle
+    100010: tennis_strings_horizontal
+    100012: tennis_strings_vertical
+    400000: //RootNode
+    400002: tennis_collision
+    400004: tennis_frame
+    400006: tennis_frame_mold
+    400008: tennis_handle
+    400010: tennis_strings_horizontal
+    400012: tennis_strings_vertical
+    2100000: tennis_collision
+    2100002: tennis_frame_mold
+    2100004: tennis_strings
+    2100006: tennis_handle
+    2100008: tennis_handle_trim
+    2100010: tennis_frame
+    2300000: tennis_collision
+    2300002: tennis_frame
+    2300004: tennis_frame_mold
+    2300006: tennis_handle
+    2300008: tennis_strings_horizontal
+    2300010: tennis_strings_vertical
+    3300000: tennis_collision
+    3300002: tennis_frame
+    3300004: tennis_frame_mold
+    3300006: tennis_handle
+    3300008: tennis_strings_horizontal
+    3300010: tennis_strings_vertical
+    4300000: tennis_collision
+    4300002: tennis_frame_mold
+    4300004: tennis_strings_horizontal
+    4300006: tennis_strings_vertical
+    4300008: tennis_handle
+    4300010: tennis_frame
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tennis_frame
+    second: {fileID: 2100000, guid: 87893d2f529e9b74d8666d9ae873bb23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tennis_frame_mold
+    second: {fileID: 2100000, guid: 87893d2f529e9b74d8666d9ae873bb23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tennis_handle
+    second: {fileID: 2100000, guid: 9a0fb2b369f2139459882a9b042b401d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tennis_handle_trim
+    second: {fileID: 2100000, guid: 42c13bc8e84988142b1503be607ea369, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tennis_strings
+    second: {fileID: 2100000, guid: 4470f254ff2b22f4dbfe23d1715bf93f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

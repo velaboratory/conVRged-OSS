@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/_Loading.unity
+    guid: 565165ad8f86e2544bb08608c3953489
+  - enabled: 0
+    path: Assets/Scenes/TutorialRoom.unity
+    guid: 05fe538a2413d14469aee5d0c8f4e5b5
+  - enabled: 0
+    path: Assets/Scenes/VFR.unity
+    guid: 2b0bbd778e8600e4ba50003fad212ed1
+  - enabled: 0
+    path: Assets/Scenes/Auditorium.unity
+    guid: 6d748074b2c65024faec3dd989684606
+  - enabled: 0
+    path: Assets/Scenes/ConferenceRoom.unity
+    guid: f068e76a4cd07884c8eae269652ff5cd
+  - enabled: 0
+    path: Assets/Scenes/Chess.unity
+    guid: 1e7865fc553ed5643ae96016b8678786
+  - enabled: 0
+    path: Assets/Scenes/UPR.unity
+    guid: 1a7f4989c59bb76468181bcd41ad517f
+  - enabled: 0
+    path: Assets/Scenes/Demo.unity
+    guid: 807a17341ee326d4b99004bb8babe674
+  - enabled: 0
+    path: Assets/Scenes/GCR_Demo.unity
+    guid: bce447bc32f7bc448b656240cff40d16
+  - enabled: 1
+    path: Assets/Scenes/MonkeLand (addon).unity
+    guid: ba645223c342206439642a30ed400337
+  - enabled: 1
+    path: Assets/Scenes/MiniGolf (addon).unity
+    guid: 9fc53de3e5c4f1f4a8a2a46077874aba
+  - enabled: 1
+    path: Assets/Scenes/VFR_Day.unity
+    guid: 51fa2426b65a95d4daccb903a43a5607
+  - enabled: 1
+    path: Assets/Scenes/VFR_Night.unity
+    guid: 55f01381de9be8145ad4dfcf477f2627
+  - enabled: 1
+    path: Assets/Scenes/Auditorium_Bright.unity
+    guid: 0a10960e7dc443b4b8ce12bb339d1130
+  - enabled: 1
+    path: Assets/Scenes/Auditorium_Dark.unity
+    guid: 4c6a60e57bb7c234e98261b013bf4e66
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2a989a8f5b16655438905619adeb6244,
+      type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 28a1881c4079189488383a05f8c5d8d3,
+      type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 21902c41bd2cb134c94b3facee073759,
+      type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 140e48c34472ecb45a9abdbee78152b7,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2313f0c19387df4428ed564921ac34c1,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: aebe579ecb395594a955fbd29a0e0870,
+      type: 2}

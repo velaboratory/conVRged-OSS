@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: bce2cb2d887cbfe48a7921ec1dd6a014
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cylinder
+    100002: handle
+    100004: headdress
+    100006: leveler
+    100008: prism
+    100010: prism_casing
+    100012: //RootNode
+    100014: telescoping_stake
+    100016: y-mount
+    100018: fully_extended
+    100020: fully_retracted
+    100022: stake
+    400000: Cylinder
+    400002: handle
+    400004: headdress
+    400006: leveler
+    400008: prism
+    400010: prism_casing
+    400012: //RootNode
+    400014: telescoping_stake
+    400016: y-mount
+    400018: fully_extended
+    400020: fully_retracted
+    400022: stake
+    2100000: pole_main
+    2100002: pole_tip
+    2100004: black_plastic
+    2100006: shiny_metal
+    2100008: prism
+    2100010: black_headdress
+    2100012: yellow_headdress
+    2300000: Cylinder
+    2300002: handle
+    2300004: headdress
+    2300006: leveler
+    2300008: prism
+    2300010: prism_casing
+    2300012: //RootNode
+    2300014: telescoping_stake
+    2300016: y-mount
+    2300018: stake
+    3300000: Cylinder
+    3300002: handle
+    3300004: headdress
+    3300006: leveler
+    3300008: prism
+    3300010: prism_casing
+    3300012: //RootNode
+    3300014: telescoping_stake
+    3300016: y-mount
+    3300018: stake
+    4300000: stake
+    4300002: leveler
+    4300004: handle
+    4300006: telescoping_stake
+    4300008: y-mount
+    4300010: prism_casing
+    4300012: prism
+    4300014: headdress
+    4300016: Cylinder
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_headdress
+    second: {fileID: 2100000, guid: 8c2210048052d184184d3cc04c05f9d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_plastic
+    second: {fileID: 2100000, guid: 87fa1e6930167f44a8845226b620ee1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pole_main
+    second: {fileID: 2100000, guid: 279eb76a3040db84a84f4b786c986b60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pole_tip
+    second: {fileID: 2100000, guid: 02273650c0dacde409203c319730eb09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prism
+    second: {fileID: 2100000, guid: 90476b57015dbf448aac548272ad1b6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shiny_metal
+    second: {fileID: 2100000, guid: 02273650c0dacde409203c319730eb09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow_headdress
+    second: {fileID: 2100000, guid: a5e881d332eddb147944366034381742, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

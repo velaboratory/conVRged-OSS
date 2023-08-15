@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 4b7d2f3b0aa3ec747b7a34d3017946bc
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: full extended C.002
+    100004: full retracted C.002
+    100006: fully extended A.002
+    100008: fully extended B.002
+    100010: fully retracted A.002
+    100012: fully retracted B.002
+    100014: Leg A.001
+    100016: Leg B.002
+    100018: Leg C.002
+    100020: leg_a
+    100022: leg_a_bottom
+    100024: leg_a_bottom_end
+    100026: leg_b
+    100028: leg_b_bottom
+    100030: leg_b_bottom_end
+    100032: leg_c
+    100034: leg_c_bottom
+    100036: leg_c_bottom_end
+    100038: skinned_mesh
+    100040: top
+    100042: //RootNode
+    100044: base
+    100046: Leg A
+    100048: Leg A Slider
+    100050: Leg A Slider_end
+    100052: Leg B
+    100054: Leg B Slider
+    100056: Leg B Slider_end
+    100058: Leg C
+    100060: Leg C Slider
+    100062: Leg C Slider_end
+    400000: Armature
+    400002: full extended C.002
+    400004: full retracted C.002
+    400006: fully extended A.002
+    400008: fully extended B.002
+    400010: fully retracted A.002
+    400012: fully retracted B.002
+    400014: Leg A.001
+    400016: Leg B.002
+    400018: Leg C.002
+    400020: leg_a
+    400022: leg_a_bottom
+    400024: leg_a_bottom_end
+    400026: leg_b
+    400028: leg_b_bottom
+    400030: leg_b_bottom_end
+    400032: leg_c
+    400034: leg_c_bottom
+    400036: leg_c_bottom_end
+    400038: skinned_mesh
+    400040: top
+    400042: //RootNode
+    400044: base
+    400046: Leg A
+    400048: Leg A Slider
+    400050: Leg A Slider_end
+    400052: Leg B
+    400054: Leg B Slider
+    400056: Leg B Slider_end
+    400058: Leg C
+    400060: Leg C Slider
+    400062: Leg C Slider_end
+    2100000: black_plastic_rough
+    2100002: metal
+    2100004: yellow_plastic_rough
+    2100006: yellow_wood
+    2100008: color_grid
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: skinned_mesh
+    9500000: //RootNode
+    13700000: skinned_mesh
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

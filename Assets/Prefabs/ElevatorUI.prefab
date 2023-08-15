@@ -1,0 +1,1281 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8545309156076097299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8545309156076097304}
+  - component: {fileID: 8545309156076097303}
+  - component: {fileID: 8545309156076097302}
+  - component: {fileID: 8545309156076097301}
+  - component: {fileID: 8545309156076097300}
+  m_Layer: 5
+  m_Name: ElevatorUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8545309156076097304
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8545309156076097299}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.8629999}
+  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2340186378574954005}
+  - {fileID: 7538205271373097546}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.9219971, y: 1.0830078}
+  m_SizeDelta: {x: 359, y: 973}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!223 &8545309156076097303
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8545309156076097299}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &8545309156076097302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8545309156076097299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!114 &8545309156076097301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8545309156076097299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &8545309156076097300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8545309156076097299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d3fd4e5ea959524d87da4624d392e15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorOpener: {fileID: 0}
+  numpadValue: {fileID: 2340186378476753353}
+--- !u!1001 &8545309157426488692
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8545309156076097304}
+    m_Modifications:
+    - target: {fileID: 6263674182423199121, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182423199121, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182423199121, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182423199121, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182423199121, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182423199121, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -250
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182423199123, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 6263674182423199123, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnterNumber
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182423199123, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182453910460, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 99.00008
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182453910460, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -367
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182453910461, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182453910462, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 6263674182453910462, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnterNumber
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182453910462, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182534881948, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182534881948, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -16.97998
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182534881949, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182535183484, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182535183484, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182535183484, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182535183484, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182535183484, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182535183484, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182535183486, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 6263674182535183486, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnterNumber
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182535183486, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182564774816, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -318.45007
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182564774816, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -358
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458270, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_Name
+      value: Numpad
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458270, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 629
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 406.90002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 164
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -356.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182650942409, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182722426831, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182722426831, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182722426831, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182722426831, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182722426831, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182722426831, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -150
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182722426833, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 6263674182722426833, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnterNumber
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182722426833, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182740068754, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -482.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182740068754, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -84.000046
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182740068755, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182775403706, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182775403708, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182775403708, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 73
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182775403709, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_Text
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182860895302, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182860895302, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182860895302, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182860895302, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182860895302, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182860895302, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -250
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182860895304, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 6263674182860895304, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnterNumber
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182860895304, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182920530788, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 199.00005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182920530788, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -316.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182920530789, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182920530790, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 6263674182920530790, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Backspace
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182920530790, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182920613807, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182920613807, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182920613807, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182920613807, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182920613807, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182920613807, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182920613809, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 6263674182920613809, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnterNumber
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674182920613809, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183152071713, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_Text
+      value: Server Number
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183152071713, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183152071902, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -318.45007
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183152071902, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 140.00002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183152071903, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183352643339, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183352643340, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -318.4501
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183352643340, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 173.4001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183767858802, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -318.45007
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183767858802, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -84.000046
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183767858803, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183847241003, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183847241003, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183847241003, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183847241003, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183847241003, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183847241003, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -150
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183847241005, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 6263674183847241005, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnterNumber
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183847241005, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183884247427, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_Text
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183927125953, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183938698746, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183938698746, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183938698746, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183938698746, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183938698746, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183938698746, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -150
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183938698748, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 6263674183938698748, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnterNumber
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674183938698748, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184041327928, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184041327928, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184041327928, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184041327928, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184041327928, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184041327928, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184041327930, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 6263674184041327930, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnterNumber
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184041327930, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184365754927, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -259.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184365754927, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 791.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184365754927, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -168.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184365754927, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -231.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184365754929, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.40392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184365754929, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184381701518, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184381701518, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184381701518, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184381701518, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184381701518, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184381701518, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -250
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184381701520, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 6263674184381701520, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnterNumber
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263674184381701520, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac, type: 3}
+--- !u!114 &2340186378476753353 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6263674182775403709, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 8545309157426488692}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d199490a83bb2b844b9695cbf13b01ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &2340186378574954005 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6263674182612458337, guid: 158c74e74bd1e8c4d8f789a8f26cf5ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 8545309157426488692}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8545309157428219391
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8545309156076097304}
+    m_Modifications:
+    - target: {fileID: 1095276844182207162, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 1095276844182207162, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1095276844182207162, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492906, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_Name
+      value: LevelSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 926
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574071605979833, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 2164574071605979833, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574071605979833, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574071605979839, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574071605979839, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574071605979839, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574071717600592, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 2164574071717600592, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2164574071717600592, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3009995161867810143, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3009995161867810143, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3009995161867810143, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502873644298249304, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 3502873644298249304, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502873644298249304, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3619441759191626015, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 3619441759191626015, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3619441759191626015, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268462158334467425, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 4268462158334467425, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268462158334467425, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Auditorium
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129867164484739743, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129867164484739743, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129867164484739743, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278569374940718783, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278569374940718783, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278569374940718783, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6532965008709987120, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6532965008709987120, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6532965008709987120, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983062870593202742, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 6983062870593202742, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983062870593202742, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7019112466395306280, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 7019112466395306280, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7019112466395306280, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337937112398885286, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337937112398885286, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337937112398885286, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473548381228977041, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473548381228977041, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473548381228977041, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930047675830819910, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 7930047675830819910, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930047675830819910, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ElevatorUIController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8619506905459652387, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 8619506905459652387, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8619506905459652387, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ConferenceRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 8700435121259712608, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8545309156076097300}
+    - target: {fileID: 8700435121259712608, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8700435121259712608, guid: 5326b0f7503c86e458d82af09675de7b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: LocomotionStudy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5326b0f7503c86e458d82af09675de7b, type: 3}
+--- !u!224 &7538205271373097546 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2164574070401492917, guid: 5326b0f7503c86e458d82af09675de7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 8545309157428219391}
+  m_PrefabAsset: {fileID: 0}

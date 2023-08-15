@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 14c1a29e9aade8a41ac3a5625e431ec9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: eyepiece
+    100004: eyepiece_ring
+    100006: focus_knob
+    100008: focus_knob_bool
+    100010: leveling_knob_back_left
+    100012: leveling_knob_back_right
+    100014: leveling_knob_front
+    100016: main_optical_tube
+    100018: pan_knob
+    100020: pan_knob_bool
+    100022: periscope
+    100024: Plane
+    100026: top_base
+    100028: top_base_spinning
+    100030: top_scope
+    400000: //RootNode
+    400002: eyepiece
+    400004: eyepiece_ring
+    400006: focus_knob
+    400008: focus_knob_bool
+    400010: leveling_knob_back_left
+    400012: leveling_knob_back_right
+    400014: leveling_knob_front
+    400016: main_optical_tube
+    400018: pan_knob
+    400020: pan_knob_bool
+    400022: periscope
+    400024: Plane
+    400026: top_base
+    400028: top_base_spinning
+    400030: top_scope
+    2100000: light_gray
+    2100002: black_metal
+    2100004: dark_gray
+    2100006: dark_dark_gray
+    2100008: glass
+    2100010: gold_metal
+    2300000: //RootNode
+    2300002: eyepiece
+    2300004: eyepiece_ring
+    2300006: focus_knob
+    2300008: focus_knob_bool
+    2300010: leveling_knob_back_left
+    2300012: leveling_knob_back_right
+    2300014: leveling_knob_front
+    2300016: main_optical_tube
+    2300018: pan_knob
+    2300020: pan_knob_bool
+    2300022: periscope
+    2300024: Plane
+    2300026: top_base
+    2300028: top_base_spinning
+    2300030: top_scope
+    3300000: //RootNode
+    3300002: eyepiece
+    3300004: eyepiece_ring
+    3300006: focus_knob
+    3300008: focus_knob_bool
+    3300010: leveling_knob_back_left
+    3300012: leveling_knob_back_right
+    3300014: leveling_knob_front
+    3300016: main_optical_tube
+    3300018: pan_knob
+    3300020: pan_knob_bool
+    3300022: periscope
+    3300024: Plane
+    3300026: top_base
+    3300028: top_base_spinning
+    3300030: top_scope
+    4300000: bottom_base
+    4300002: top_base
+    4300004: top_base_spinning
+    4300006: main_optical_tube
+    4300008: focus_knob_bool
+    4300010: top_scope
+    4300012: eyepiece_ring
+    4300014: eyepiece
+    4300016: focus_knob
+    4300018: pan_knob
+    4300020: periscope
+    4300022: Plane
+    4300024: pan_knob_bool
+    4300026: leveling_knob_front
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_metal
+    second: {fileID: 2100000, guid: 8c2210048052d184184d3cc04c05f9d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark_dark_gray
+    second: {fileID: 2100000, guid: c38b8d4476dad07408414c11ce72194f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark_gray
+    second: {fileID: 2100000, guid: aae448db4f8e96c439ac938468f51661, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gold_metal
+    second: {fileID: 2100000, guid: 02273650c0dacde409203c319730eb09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light_gray
+    second: {fileID: 2100000, guid: 522c9358aaedd2243a989ff71d89beb4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

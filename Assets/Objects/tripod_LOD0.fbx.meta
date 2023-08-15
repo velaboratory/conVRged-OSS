@@ -1,0 +1,311 @@
+fileFormatVersion: 2
+guid: f54e2d6d8fef28e43bdfc79858480ee5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bottom_rod_cap
+    100002: bottom_rod_cap.001
+    100004: bottom_rod_cap.002
+    100006: ground_spike
+    100008: ground_spike.001
+    100010: ground_spike.002
+    100012: middle_plank
+    100014: middle_plank.001
+    100016: middle_plank.002
+    100018: outside_rods
+    100020: outside_rods.001
+    100022: outside_rods.002
+    100024: rod_hinge
+    100026: rod_hinge.001
+    100028: rod_hinge.002
+    100030: top_hinge
+    100032: top_rod_caps
+    100034: top_rod_caps.001
+    100036: top_rod_caps.002
+    100038: //RootNode
+    100040: full extended C
+    100042: full retracted C
+    100044: fully extended A
+    100046: fully extended B
+    100048: fully retracted A
+    100050: fully retracted B
+    100052: outside_rods A
+    100054: outside_rods B
+    100056: outside_rods C
+    100058: ground_spike A
+    100060: ground_spike B
+    100062: ground_spike C
+    100064: middle_plank A
+    100066: middle_plank B
+    100068: middle_plank C
+    100070: 120_deg_empty
+    100072: Leg A
+    100074: Leg B
+    100076: Leg C
+    100078: clamp A
+    100080: clamp B
+    100082: clamp C
+    100084: rod_clamp_A
+    100086: rod_clamp_A.001
+    100088: rod_clamp_A.002
+    100090: top_base_plate
+    400000: bottom_rod_cap
+    400002: bottom_rod_cap.001
+    400004: bottom_rod_cap.002
+    400006: ground_spike
+    400008: ground_spike.001
+    400010: ground_spike.002
+    400012: middle_plank
+    400014: middle_plank.001
+    400016: middle_plank.002
+    400018: outside_rods
+    400020: outside_rods.001
+    400022: outside_rods.002
+    400024: rod_hinge
+    400026: rod_hinge.001
+    400028: rod_hinge.002
+    400030: top_hinge
+    400032: top_rod_caps
+    400034: top_rod_caps.001
+    400036: top_rod_caps.002
+    400038: //RootNode
+    400040: full extended C
+    400042: full retracted C
+    400044: fully extended A
+    400046: fully extended B
+    400048: fully retracted A
+    400050: fully retracted B
+    400052: outside_rods A
+    400054: outside_rods B
+    400056: outside_rods C
+    400058: ground_spike A
+    400060: ground_spike B
+    400062: ground_spike C
+    400064: middle_plank A
+    400066: middle_plank B
+    400068: middle_plank C
+    400070: 120_deg_empty
+    400072: Leg A
+    400074: Leg B
+    400076: Leg C
+    400078: clamp A
+    400080: clamp B
+    400082: clamp C
+    400084: rod_clamp_A
+    400086: rod_clamp_A.001
+    400088: rod_clamp_A.002
+    400090: top_base_plate
+    2100000: No Name
+    2100002: black_plastic_rough
+    2100004: yellow_wood
+    2100006: yellow_plastic_rough
+    2100008: metal
+    2300000: bottom_rod_cap
+    2300002: bottom_rod_cap.001
+    2300004: bottom_rod_cap.002
+    2300006: ground_spike
+    2300008: ground_spike.001
+    2300010: ground_spike.002
+    2300012: middle_plank
+    2300014: middle_plank.001
+    2300016: middle_plank.002
+    2300018: outside_rods
+    2300020: outside_rods.001
+    2300022: outside_rods.002
+    2300024: rod_hinge
+    2300026: rod_hinge.001
+    2300028: rod_hinge.002
+    2300030: top_hinge
+    2300032: top_rod_caps
+    2300034: top_rod_caps.001
+    2300036: top_rod_caps.002
+    2300038: //RootNode
+    2300040: outside_rods A
+    2300042: outside_rods B
+    2300044: outside_rods C
+    2300046: ground_spike A
+    2300048: ground_spike B
+    2300050: ground_spike C
+    2300052: middle_plank A
+    2300054: middle_plank B
+    2300056: middle_plank C
+    2300058: clamp A
+    2300060: clamp B
+    2300062: clamp C
+    2300064: rod_clamp_A
+    2300066: rod_clamp_A.001
+    2300068: rod_clamp_A.002
+    2300070: top_base_plate
+    3300000: bottom_rod_cap
+    3300002: bottom_rod_cap.001
+    3300004: bottom_rod_cap.002
+    3300006: ground_spike
+    3300008: ground_spike.001
+    3300010: ground_spike.002
+    3300012: middle_plank
+    3300014: middle_plank.001
+    3300016: middle_plank.002
+    3300018: outside_rods
+    3300020: outside_rods.001
+    3300022: outside_rods.002
+    3300024: rod_hinge
+    3300026: rod_hinge.001
+    3300028: rod_hinge.002
+    3300030: top_hinge
+    3300032: top_rod_caps
+    3300034: top_rod_caps.001
+    3300036: top_rod_caps.002
+    3300038: //RootNode
+    3300040: outside_rods A
+    3300042: outside_rods B
+    3300044: outside_rods C
+    3300046: ground_spike A
+    3300048: ground_spike B
+    3300050: ground_spike C
+    3300052: middle_plank A
+    3300054: middle_plank B
+    3300056: middle_plank C
+    3300058: clamp A
+    3300060: clamp B
+    3300062: clamp C
+    3300064: rod_clamp_A
+    3300066: rod_clamp_A.001
+    3300068: rod_clamp_A.002
+    3300070: top_base_plate
+    4300000: top_base_plate
+    4300002: top_hinge
+    4300004: outside_rods.002
+    4300006: middle_plank.002
+    4300008: ground_spike.002
+    4300010: top_rod_caps.002
+    4300012: rod_hinge.002
+    4300014: bottom_rod_cap.002
+    4300016: outside_rods.001
+    4300018: bottom_rod_cap.001
+    4300020: top_rod_caps.001
+    4300022: rod_hinge.001
+    4300024: outside_rods
+    4300026: top_rod_caps
+    4300028: rod_hinge
+    4300030: bottom_rod_cap
+    4300032: outside_rods C
+    4300034: middle_plank
+    4300036: ground_spike
+    4300038: outside_rods B
+    4300040: outside_rods A
+    4300042: ground_spike C
+    4300044: middle_plank C
+    4300046: middle_plank A
+    4300048: ground_spike A
+    4300050: rod_clamp_A.002
+    4300052: clamp C
+    4300054: rod_clamp_A.001
+    4300056: rod_clamp_A
+    4300058: clamp A
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_plastic_rough
+    second: {fileID: 2100000, guid: 87fa1e6930167f44a8845226b620ee1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: 279eb76a3040db84a84f4b786c986b60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow_plastic_rough
+    second: {fileID: 2100000, guid: f88ca5ac702e3664ca7227fbc511e196, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow_wood
+    second: {fileID: 2100000, guid: a5e881d332eddb147944366034381742, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

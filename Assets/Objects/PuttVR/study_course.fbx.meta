@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: 72606f99ad630e148b9e876dab0b4970
+timeCreated: 1525793808
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: center_plane.001
+    100002: hole1_plane1.001
+    100004: hole1_plane1.004
+    100006: hole1_plane1.005
+    100008: practice_hole_1.001
+    100010: //RootNode
+    100012: h1
+    100014: h1_walls
+    100016: h2
+    100018: h2_walls
+    100020: h3
+    100022: h3_walls
+    100024: h4
+    100026: h4_walls
+    100028: center_plane
+    100030: h1_barrier
+    100032: h2_barrier
+    100034: h3_barrier
+    100036: h4_barrier
+    100038: h1_holepos
+    100040: h2_holepos
+    100042: h3_holepos
+    100044: h4_holepos
+    100046: center_plane.002
+    400000: center_plane.001
+    400002: hole1_plane1.001
+    400004: hole1_plane1.004
+    400006: hole1_plane1.005
+    400008: practice_hole_1.001
+    400010: //RootNode
+    400012: h1
+    400014: h1_walls
+    400016: h2
+    400018: h2_walls
+    400020: h3
+    400022: h3_walls
+    400024: h4
+    400026: h4_walls
+    400028: center_plane
+    400030: h1_barrier
+    400032: h2_barrier
+    400034: h3_barrier
+    400036: h4_barrier
+    400038: h1_holepos
+    400040: h2_holepos
+    400042: h3_holepos
+    400044: h4_holepos
+    400046: center_plane.002
+    2100000: minigolf_green
+    2100002: minigolf_wall
+    2100004: minigolf_border
+    2300000: center_plane.001
+    2300002: hole1_plane1.001
+    2300004: hole1_plane1.004
+    2300006: hole1_plane1.005
+    2300008: practice_hole_1.001
+    2300010: h1
+    2300012: h1_walls
+    2300014: h2
+    2300016: h2_walls
+    2300018: h3
+    2300020: h3_walls
+    2300022: h4
+    2300024: h4_walls
+    2300026: center_plane
+    2300028: h1_barrier
+    2300030: h2_barrier
+    2300032: h3_barrier
+    2300034: h4_barrier
+    2300036: center_plane.002
+    3300000: center_plane.001
+    3300002: hole1_plane1.001
+    3300004: hole1_plane1.004
+    3300006: hole1_plane1.005
+    3300008: practice_hole_1.001
+    3300010: h1
+    3300012: h1_walls
+    3300014: h2
+    3300016: h2_walls
+    3300018: h3
+    3300020: h3_walls
+    3300022: h4
+    3300024: h4_walls
+    3300026: center_plane
+    3300028: h1_barrier
+    3300030: h2_barrier
+    3300032: h3_barrier
+    3300034: h4_barrier
+    3300036: center_plane.002
+    4300000: hole1_plane1.005
+    4300002: center_plane.001
+    4300004: practice_hole_1.001
+    4300006: hole1_plane1.004
+    4300008: hole1_plane1.001
+    4300010: h2
+    4300012: h2_walls
+    4300014: h1
+    4300016: h1_walls
+    4300018: h3
+    4300020: h3_walls
+    4300022: h4
+    4300024: h4_walls
+    4300026: center_plane
+    4300028: h2_barrier
+    4300030: h1_barrier
+    4300032: h3_barrier
+    4300034: h4_barrier
+    4300036: center_plane.002
+    6400000: center_plane.001
+    6400002: hole1_plane1.001
+    6400004: hole1_plane1.004
+    6400006: hole1_plane1.005
+    6400008: practice_hole_1.001
+    6400010: h1
+    6400012: h1_walls
+    6400014: h2
+    6400016: h2_walls
+    6400018: h3
+    6400020: h3_walls
+    6400022: h4
+    6400024: h4_walls
+    6400026: center_plane
+    6400028: h1_barrier
+    6400030: h2_barrier
+    6400032: h3_barrier
+    6400034: h4_barrier
+    6400036: center_plane.002
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: minigolf_border
+    second: {fileID: 2100000, guid: 2ab8ad2f2b48e684583692647af7a34b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: minigolf_green
+    second: {fileID: 2100000, guid: 7ff9b1b8ffc282d4e892cc44be6ad917, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: minigolf_wall
+    second: {fileID: 2100000, guid: 3a77fe899ae36dd4a8114787c117a387, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

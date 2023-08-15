@@ -1,0 +1,12 @@
+Begin Object Class=/Script/Engine.Texture2D Name="T_mask_cliff_1_2"
+   Begin Object Class=/Script/Engine.AssetImportData Name="AssetImportData"
+   End Object
+   Begin Object Name="AssetImportData"
+   End Object
+   ImportedSize=(X=2048,Y=2048)
+   Source=(Id=9FCC026D4C06D41D3FA682BEEC008221,SizeX=2048,SizeY=2048,NumSlices=1,NumMips=1,bPNGCompressed=True,Format=TSF_G8)
+   LightingGuid=85E39DAD49A68BB0E5E1539A2C1C36F5
+   AssetImportData=AssetImportData'"AssetImportData"'
+   CompressionSettings=TC_Masks
+   SRGB=False
+End Object
