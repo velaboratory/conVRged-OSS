@@ -1,15 +1,14 @@
 # conVRged
-![convrged_title_image](Store/hero_art.png "Logo")
+![convrged_title_image](Images/quad_cover.png "Logo")
 
 https://vel.engr.uga.edu/projects/virtual-family-room/
+
+conVRged is a multi-purpose XR social application with support for presentations, whiteboards, games, land surveying equipment, and more.
 
 ## Installation
 
 ### Quest:
 [App Lab page](https://www.oculus.com/experiences/quest/4385132461504154 "App Lab Link")
-
-### Rift:
-[Oculus Store page](https://www.oculus.com/experiences/rift/2885779951483038/ "Oculus Store (requires access)")
 
 
 ## Development Environment Setup
